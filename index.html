@@ -1,0 +1,363 @@
+<!doctype html>
+<html class="no-js" lang="fr">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Locations saisonnières Projet Page Airbnb</title>
+    <meta name="description" content="Reproduction de la page d'accueil airbnb">
+    <!--mobiles devices!-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+
+    <link rel="icon" href="favicon.ico" />
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+    <!-- Place favicon.ico in the root directory -->
+
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/main.css">
+
+    <link rel="stylesheet" href="font-awesome-4.4.0/css/font-awesome.css" />
+
+</head>
+
+<body>
+    <!--[if lt IE 8]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+    <div class="video-container">
+        <div class="filter"></div>
+        <video autoplay loop class="fillWidth">
+            <source src="Airtaxi/Mp4/Airtaxi.mp4" type="video/mp4">
+        </video>
+        <nav id="nav" class="navbar navbar-invisible" data-spy="scroll" data-target="nav">
+            <div class="container">
+                <div class="navbar-header">
+                    <button class="navbar-toggle collapsed" data-toggle="collapse" data-target="#monmenu">
+                        MENU
+                    </button>
+                    <a href="#" class="navbar-brand pull-left">
+                        <img id="logo1" src="airbnb.png" alt="Logo airbnb">
+                    </a>
+                </div>
+                <div class="collapse navbar-collapse pull-right" id="monmenu">
+                    <ul class="nav navbar-nav">
+                        <li><a id="border" href="#">Devenez hôte</a></li>
+                        <li>
+                            <a href="#">Aide</a>
+                        </li>
+                        <li><a href="#">Inscription</a></li>
+                        <li><a href="#">Connexion</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div id="header1">
+                <h1>
+                    BIENVENUE À LA MAISON
+                </h1>
+                <p>Louez des logements uniques auprès d'hôtes locaux dans plus de 190 pays.</p>
+                <button type="submit" class="btn btn-Info">Mode d'emploi</button>
+            </div>
+            <div id="foot">
+                <form class="navbar-form navbar-center">
+                    <div class="form-group" role="group">
+                        <input type="text" class="form-control" placeholder="Où voulez-vous aller ?">
+                        <input id="arrivee" type="text" class="form-control hidden-xs" placeholder="Arrivée">
+                        <input id="depart" type="text" class="form-control hidden-xs" placeholder="Départ">
+                        <input id="voyageur" type="text" class="form-control hidden-xs" placeholder="1 Voyageur">
+                        <button type="submit" class="btn btn-danger">Rechercher</button>
+                    </div>
+                </form>
+            </div>
+        </nav>
+    </div>
+
+
+
+    <div class="container2">
+        <div class="row title container-fluid">
+            <div id="background1" class="col-md-4">
+
+                <h2 class="hidden-sm hidden-xs">Ouvrez la porte à un voyageur et à une nouvelle vie</h2>
+                <p class="hidden-sm hidden-xs">Gagnez de l'argent en accueillant des voyageurs.</p>
+                <button type="button" class="btn btn-primary btn-lg hidden-sm hidden-xs">Estimer mes revenus</button>
+
+            </div>
+
+
+            <div id="img-container" class="col-md-8">
+
+                <img src="img/image1.1.jpg" alt="photo de fond" class="img-responsive" />
+
+            </div>
+        </div>
+    </div>
+
+    <div class="container3">
+        <div class="row title">
+            <h2 class="hidden-sm hidden-xs">Juste pour le week-end</h2>
+            <p class="hidden-sm hidden-xs">Découvrez de nouveaux logements incroyables près de chez vous.</p>
+            <div class="row">
+                <div class="col-xs-12 col-md-3">
+                    <a href="#" class="thumbnail">
+                        <img src="img/lille.jpeg" alt="photo de Lille" class="img-responsive" />
+                    </a>
+                </div>
+                <div class="col-xs-12 col-md-3">
+                    <a href="#" class="thumbnail">
+                        <img src="img/bruxelles.jpeg" alt="photo de Bruxelles" class="img-responsive" />
+                    </a>
+                </div>
+                <div class="col-xs-12 col-md-3">
+                    <a href="#" class="thumbnail">
+                        <img src="img/londres.jpeg" alt="photo de Londres" class="img-responsive" />
+                    </a>
+                </div>
+
+            </div>
+            <p>
+                <button type="button" class="btn btn-default btn-lg">Voir toutes les destinations</button>
+            </p>
+        </div>
+
+    </div>
+
+
+    <footer class="container-responsive">
+        <div class="row row-condensed">
+            <div class="col-md-3 col-md-offset-1 col-md-3 hidden-sm hidden-xs">
+                <div class="language-curr-picker clearfix space-2">
+                    <div class="select select-large select-block row-space-2">
+                        <label id="language-selector-label" class="screen-reader-only"></label>
+                        <select class="language-selector" aria-labelledby="language-selector-label">
+                            <option value="id">Bahasa Indonesia</option>
+                            <option value="ms">Bahasa Melayu</option>
+                            <option value="ca">Català</option>
+                            <option value="da">Dansk</option>
+                            <option value="de">Deutsch</option>
+                            <option value="en">English</option>
+                            <option value="es">Español</option>
+                            <option value="el">Eλληνικά</option>
+                            <option selected="" value="fr">Français</option>
+                            <option value="it">Italiano</option>
+                            <option value="hu">Magyar</option>
+                            <option value="nl">Nederlands</option>
+                            <option value="no">Norsk</option>
+                            <option value="pl">Polski</option>
+                            <option value="pt">Português</option>
+                            <option value="fi">Suomi</option>
+                            <option value="sv">Svenska</option>
+                            <option value="tr">Türkçe</option>
+                            <option value="is">Íslenska</option>
+                            <option value="cs">Čeština</option>
+                            <option value="ru">Русский</option>
+                            <option value="th">ภาษาไทย</option>
+                            <option value="zh">中文 (简体)</option>
+                            <option value="zh-TW">中文 (繁體)</option>
+                            <option value="ja">日本語</option>
+                            <option value="ko">한국어</option>
+                        </select>
+                    </div>
+                    <div class="select select-large select-block row-space-2 hidden-sm hidden-xs">
+                        <label id="currency-selector-label" class="screen-reader-only"></label>
+                        <select class="currency-selector" aria-labelledby="currency-selector-label">
+                            <option value="AED">AED</option>
+                            <option value="ARS">ARS</option>
+                            <option value="AUD">AUD</option>
+                            <option value="BGN">BGN</option>
+                            <option value="BRL">BRL</option>
+                            <option value="CAD">CAD</option>
+                            <option value="CHF">CHF</option>
+                            <option value="CNY">CNY</option>
+                            <option value="CRC">CRC</option>
+                            <option value="CZK">CZK</option>
+                            <option value="DKK">DKK</option>
+                            <option selected="" value="EUR">EUR</option>
+                            <option value="GBP">GBP</option>
+                            <option value="HKD">HKD</option>
+                            <option value="HRK">HRK</option>
+                            <option value="HUF">HUF</option>
+                            <option value="IDR">IDR</option>
+                            <option value="ILS">ILS</option>
+                            <option value="INR">INR</option>
+                            <option value="JPY">JPY</option>
+                            <option value="KRW">KRW</option>
+                            <option value="MAD">MAD</option>
+                            <option value="MXN">MXN</option>
+                            <option value="MYR">MYR</option>
+                            <option value="NOK">NOK</option>
+                            <option value="NZD">NZD</option>
+                            <option value="PEN">PEN</option>
+                            <option value="PHP">PHP</option>
+                            <option value="PLN">PLN</option>
+                            <option value="RON">RON</option>
+                            <option value="RUB">RUB</option>
+                            <option value="SEK">SEK</option>
+                            <option value="SGD">SGD</option>
+                            <option value="THB">THB</option>
+                            <option value="TRY">TRY</option>
+                            <option value="TWD">TWD</option>
+                            <option value="UAH">UAH</option>
+                            <option value="USD">USD</option>
+                            <option value="VND">VND</option>
+                            <option value="ZAR">ZAR</option>
+                        </select>
+                    </div>
+                    <div class="cx-number"></div>
+                </div>
+            </div>
+            <div class="col-md-2 col-md-offset-1 hide-sm">
+                <h2 class="h5">Société</h2>
+                <ul class="list-layout">
+                    <li>
+                        <a href="/about/about-us">À propos</a>
+                    </li>
+                    <li>
+                        <a href="/careers">Carrières</a>
+                    </li>
+                    <li>
+                        <a href="/press/news">Presse</a>
+                    </li>
+                    <li>
+                        <a href="http://blog.airbnb.com">Blog</a>
+                    </li>
+                    <li>
+                        <a href="/help">Aide</a>
+                    </li>
+                    <li>
+                        <a href="/policies">Règles</a>
+                    </li>
+                    <li>
+                        <a href="/disaster-response">Réponse aux catastrophes</a>
+                    </li>
+                    <li>
+                        <a href="/terms">Conditions générales et confidentialité</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-md-2 hide-sm">
+                <h2 class="h5">Découvrir</h2>
+                <ul class="list-layout">
+                    <li>
+                        <a href="/trust">Confiance et sécurité</a>
+                    </li>
+                    <li>
+                        <a href="/invite?r=6">Inviter des amis</a>
+                    </li>
+                    <li>
+                        <a href="/wishlists/airbnb_picks">La sélection Airbnb</a>
+                    </li>
+                    <li>
+                        <a href="/mobile">Application mobile</a>
+                    </li>
+                    <li>
+                        <a href="https://www.airbnbnyc.com">Soutenir New York</a>
+                    </li>
+                    <li>
+                        <a href="/business-travel">Voyage d'affaires</a>
+                    </li>
+                    <li>
+                        <a href="/sitemaps">Plan du site</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-md-2 hide-sm">
+                <h2 class="h5">Hébergement</h2>
+                <ul class="list-layout">
+                    <li>
+                        <a href="">Pourquoi être hôte</a>
+                    </li>
+                    <li>
+                        <a href="">Hospitalité</a>
+                    </li>
+                    <li>
+                        <a href="">Hébergement responsable</a>
+                    </li>
+                    <li>
+                        <a href="">Sécurité à la maison</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <hr class="footer-divider space-top-8 space-4 hide-sm">
+        <div class="text-center">
+            <h2 class="h5 space-4 hide-sm">Rejoignez-nous sur</h2>
+            <ul class="list-layout list-inline" itemtype="http://schema.org/Organization" itemscope="">
+                <li>
+                    <a href="https://www.facebook.com/AirbnbFrance">
+                        <i class="fa fa-facebook"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://plus.google.com/+airbnb">
+                        <i class="fa fa-google"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://twitter.com/airbnb_fr">
+                        <i class="fa fa-twitter"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.linkedin.com/company/airbnb">
+                        <i class="fa fa-linkedin"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.pinterest.com/airbnb/">
+                        <i class="fa fa-pinterest"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.youtube.com/user/Airbnb">
+                        <i class="fa fa-youtube"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://instagram.com/airbnb">
+                        <i class="fa fa-instagram"></i>
+                    </a>
+                </li>
+            </ul>
+            <div> © Airbnb, Inc. </div>
+        </div>
+    </footer>
+
+
+
+
+    <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+    <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script>
+        window.jQuery || document.write('<script src="js/vendor/jquery-1.11.3.min.js"><\/script>')
+    </script>
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+
+
+    <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+    <script>
+        (function(b, o, i, l, e, r) {
+            b.GoogleAnalyticsObject = l;
+            b[l] || (b[l] =
+                function() {
+                    (b[l].q = b[l].q || []).push(arguments)
+                });
+            b[l].l = +new Date;
+            e = o.createElement(i);
+            r = o.getElementsByTagName(i)[0];
+            e.src = 'https://www.google-analytics.com/analytics.js';
+            r.parentNode.insertBefore(e, r)
+        }(window, document, 'script', 'ga'));
+        ga('create', 'UA-XXXXX-X', 'auto');
+        ga('send', 'pageview');
+    </script>
+
+</body>
+
+</html>
